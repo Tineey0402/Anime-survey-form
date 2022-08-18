@@ -1,0 +1,473 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css/styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Anime</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">All About Anime</h1>
+        <p id="description" class="description text-center">
+         Konichiwa!! Help me learn more About Your Favourite Anime.! Arigato...
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your Genre Interest?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select Favourite Genre</option>
+            <option value="shonen">Shonen</option>
+            <option value="Shoujo">Shoujo</option>
+            <option value="Mecha">Mecha</option>
+            <option value="Josei">Josei</option>
+            <option value="seinen">Seinen</option>
+            <option value="slice of life">Slice Of life</option>
+            <option value="Harem">Harem</option>
+            <option value="drama">Drama</option>
+            <option value="isekai">Isekai</option>
+            <option value="adventure">Adventure</option>
+            <option value="psychology">Psychology</option>
+            <option value="science fiction">Science Fiction</option>
+            <option value="yuri">Yuri</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="kodomomuke">Kodomomuke</option>
+            <option value="horror">Horror</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Would you recommend Anime to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>What is your favorite Anime</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="Berserk">Berserk</option>
+            <option value="Naruto">Naruto</option>
+            <option value="Dragonball">Dragonball</option>
+            <option value="One piece">One piece</option>
+            <option value="Bleach">Bleach</option>
+            <option value="Attack On Titan">Attack On Titan</option>
+            <option value="Black Clover">Black Clover</option>
+            <option value="Jujustu Kaisen">Jujustu Kaisen</option>
+            <option value="High School dxd">High School dxd</option>
+            <option value="Hellsing">Hellsing</option>
+            <option value="Mob Psycho 100">Mob Psycho 100</option>
+            <option value="Hunter x Hunter">Hunter x Hunter</option>
+            <option value="Jojo">Jojo</option>
+            <option value="Dororo">Dororo</option>
+            <option value="Kimetsu no yaiba">Kimetsu no yaiba</option>
+            <option value="Full Metal Alchemist">Full Metal Alchemist</option>
+            <option value="Vinland Saga">Vinland Saga</option>
+            <option value="Tokyo Ghoul">Tokyo Ghoul</option>
+            <option value="Baki">Baki</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Who is Your Favourite Anime Character???
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value=" Gutts 'The Black Swordsman'"
+              type="checkbox"
+              class="input-checkbox"
+            />Gutts 'The Black Swordsman'</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="Naruto Uzumaki"
+              type="checkbox"
+              class="input-checkbox"
+            />Naruto Uzumaki</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Son Goku"
+              type="checkbox"
+              class="input-checkbox"
+            />Son Goku</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Satoru Gojo"
+              type="checkbox"
+              class="input-checkbox"
+            />Satoru Gojo</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value=" Saitama to Garu"
+              type="checkbox"
+              class="input-checkbox"
+            />Saitama-to-Garu</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Monkey D. Luffy"
+              type="checkbox"
+              class="input-checkbox"
+            />Monkey D. Luffy</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Eren Yeager"
+              type="checkbox"
+              class="input-checkbox"
+            />Eren Yeager</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Sasuke Uchiha"
+              type="checkbox"
+              class="input-checkbox"
+            />Sasuke Uchiha</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Ichigo Kurosaki"
+              type="checkbox"
+              class="input-checkbox"
+            />Ichigo Kurosaki</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Asta"
+              type="checkbox"
+              class="input-checkbox"
+            />Asta</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Levi Ackerman"
+              type="checkbox"
+              class="input-checkbox"
+            />Levi Ackerman</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Genos"
+              type="checkbox"
+              class="input-checkbox"
+            />Genos</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Griffith"
+              type="checkbox"
+              class="input-checkbox"
+            />Griffith</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Roronoa Zoro"
+              type="checkbox"
+              class="input-checkbox"
+            />Roronoa Zoro</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Isei Hyoudou"
+              type="checkbox"
+              class="input-checkbox"
+            />Isei Hyoudou</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Itadori Yuji"
+              type="checkbox"
+              class="input-checkbox"
+            />Itadori Yuji</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value=" Yami Sukehiro"
+              type="checkbox"
+              class="input-checkbox"
+            />Yami Sukehiro</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Rias Gremory"
+              type="checkbox"
+              class="input-checkbox"
+            />Rias Gremory</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Yhwach"
+              type="checkbox"
+              class="input-checkbox"
+            />Yhwach</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Alucard"
+              type="checkbox"
+              class="input-checkbox"
+            />Alucard</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Integra hellsing"
+              type="checkbox"
+              class="input-checkbox"
+            />Integra hellsing</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="ken kaneki"
+              type="checkbox"
+              class="input-checkbox"
+            />ken Kaneki</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="shigeo kageyama"
+              type="checkbox"
+              class="input-checkbox"
+            />shigeo kageyama</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="joseph joestar"
+              type="checkbox"
+              class="input-checkbox"
+            />Joseph Joestar</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="thorfinn karlsefini"
+              type="checkbox"
+              class="input-checkbox"
+            />Thorfinn Karlsefini</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="gon freecss"
+              type="checkbox"
+              class="input-checkbox"
+            />Gon Freecss</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="dororo"
+              type="checkbox"
+              class="input-checkbox"
+            />Dororo</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="tanjiro kamado"
+              type="checkbox"
+              class="input-checkbox"
+            />Tanjiro Kamado</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="edward elric"
+              type="checkbox"
+              class="input-checkbox"
+            />Edward Elric</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="kishou arima"
+              type="checkbox"
+              class="input-checkbox"
+            />Kishou Arima</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="reigen arataka"
+              type="checkbox"
+              class="input-checkbox"
+            />Reigen Arataka</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="killua zoldyck"
+              type="checkbox"
+              class="input-checkbox"
+            />Killua Zoldyck</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="dio brando"
+              type="checkbox"
+              class="input-checkbox"
+            />Dio Brando</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="baki hanma"
+              type="checkbox"
+              class="input-checkbox"
+            />Baki Hanma</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Hyakkimaru"
+              type="checkbox"
+              class="input-checkbox"
+            />Hyakkimaru</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="muzan kibutsuji"
+              type="checkbox"
+              class="input-checkbox"
+            />Muzan Kibutsuji</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Yujiro Hanma"
+              type="checkbox"
+              class="input-checkbox"
+            />Yujiro Hanma</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="roy mustang"
+              type="checkbox"
+              class="input-checkbox"
+            />Roy Mustang</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Askeladd"
+              type="checkbox"
+              class="input-checkbox"
+            />Askeladd</label
+          >
+          
+        </div>
+
+        <div class="form-group">
+          <p>Any comments, favourite anime line or quote?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
